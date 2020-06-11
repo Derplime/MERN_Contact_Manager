@@ -1,11 +1,10 @@
 // Back-end server file
 
 // Required NPM imports
-import mongoose from "mongoose";
-
+const mongoose = require("mongoose");
 
 // Required Express import
-import app from "./app";
+const app = require("./app");
 
 const API_PORT = process.env.PORT || 8080;
 

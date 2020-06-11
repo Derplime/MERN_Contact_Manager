@@ -1,7 +1,7 @@
 // Main file for Express Server and API
 
 // Required Imports
-import express from "express";
+const express = require("express");
 
 // App Server Instance
 const app = express();
@@ -11,4 +11,4 @@ app.use(express.json());
 
 // TODO import and use routes here
 
-export default app;
+module.exports = app;
